@@ -8,7 +8,7 @@ const Contact = () => {
       <div className='contact__container grid'>
         <div className='contact__info'>
           <h3 className='contact__title'> Lets Talk About Everything!</h3>
-          <p className='contact__details'>Dont Like Forms? Send Me an Email. 👋</p>
+          <p className='contact__details'>Dont Like Forms? Send Me an Email.</p>
         </div>
 
         <form action='' className='contact__form'>
@@ -23,11 +23,11 @@ const Contact = () => {
           </div>
 
           <div className='contact__form-div'>
-              <input type='text' className='contact__form-input' placeholder='I have an IDEA !'/>
+              <input type='text' className='contact__form-input' placeholder='I have an IDEA'/>
             </div>
 
             <div className='contact__form-div contact__form-area'>
-              <textarea name='' id='' cols={30} rows={10} className='contact__form-input' placeholder='Chetan, Lets Grow Together !?'></textarea>
+              <textarea name='' id='' cols={30} rows={10} className='contact__form-input' placeholder='Message?'></textarea>
             </div>
              <button className='btn'>Send Message</button>
         </form>
