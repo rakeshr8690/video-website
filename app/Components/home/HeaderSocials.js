@@ -4,25 +4,18 @@ import React from 'react'
 const HeaderSocials = () => {
   return (
   <div className='home__socials'>
-        <a href='https://www.instagram.com/chetannn.k/' className='home__social-link' target='_blank'>
+        <a href='https://www.instagram.com/rakeshr2131/' className='home__social-link' target='_blank'>
         <i class="fa-brands fa-instagram"></i>
         </a>
 
-        <a href='https://www.behance.net/chetankesare1' className='home__social-link' target='_blank'>
-        <i class="fa-brands fa-behance"></i>
-        </a>
-
-        <a href='https://dribbble.com/chetankesare' className='home__social-link' target='_blank'>
-        <i class="fa-brands fa-dribbble"></i>
-        </a>
-
-        <a href='https://github.com/0x1Luffy' className='home__social-link' target='_blank'>
-        <i class="fa-brands fa-github"></i>
-        </a>
-
-        <a href='https://www.linkedin.com/in/chetan-kesare-057042195/' className='home__social-link' target='_blank'>
+        <a href='https://www.linkedin.com/in/rakesh-rulaniya-958a2222b/' className='home__social-link' target='_blank'>
         <i class="fa-brands fa-linkedin"></i>
         </a>
+
+        <a href='https://www.facebook.com/profile.php?id=100074362301892' className='home__social-link' target='_blank'>
+        <i class="fa-brands fa-facebook"></i>
+        </a>
+    
   </div>
   )
 }
